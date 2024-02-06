@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center items-center min-h-screen bg-gray-100">
     <div class="w-full max-w-xl p-4 bg-white rounded shadow">
-      <canvas ref="barChartCanvas" class="w-full h-64"></canvas>
+      <canvas ref="barChartCanvas" class="w-full h-100"></canvas>
       <div class="flex justify-between mt-4">
         <button @click="changePage(-1)" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Anterior</button>
         <button @click="changePage(1)" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Próximo</button>
