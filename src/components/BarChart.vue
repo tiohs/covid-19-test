@@ -1,4 +1,5 @@
 <template>
+  <h1 class="text-xl font-bold">Confirma o numero de casos de covid em cada pais </h1>
   <div class="flex justify-center items-center min-h-screen bg-gray-100">
     <div class="w-full max-w-xl p-4 bg-white rounded shadow">
       <canvas ref="barChartCanvas" class="w-full h-100"></canvas>
